@@ -15,6 +15,6 @@ class Dog
   end
   
   self.clear_all
-    @@all = []
+    @@all.clear
   end
 end
