@@ -9,7 +9,7 @@ class Dog
   end
   
   self.all
-    @@all.each |dog|
+    @@all.each do |dog|
       puts dog
     end
   end
